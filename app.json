@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "myFirstApp",
-    "slug": "myFirstApp",
+    "name": "applicationMeteo",
+    "slug": "applicationMeteo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -27,6 +27,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+   "plugins": 
+     [
+        [ "expo-media-library",
+          {
+          "photosPermission": "Autoroser $(PRODUCT_NAME) à accéder à vos photos.",
+          "savePhotosPermission": "Autoriser $(PRODUCT_NAME) à sauvegarder des photos.",
+          "isAccessMediaLocationEnabled": true
+          }
+        ]
+      ]
+    
   }
 }
