@@ -27,17 +27,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-   "plugins": 
-     [
-        [ "expo-media-library",
-          {
-          "photosPermission": "Autoroser $(PRODUCT_NAME) à accéder à vos photos.",
-          "savePhotosPermission": "Autoriser $(PRODUCT_NAME) à sauvegarder des photos.",
-          "isAccessMediaLocationEnabled": true
-          }
-        ]
-      ]
-    
+    }
+     
   }
 }
